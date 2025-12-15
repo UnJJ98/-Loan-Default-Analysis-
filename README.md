@@ -61,5 +61,7 @@ MySQL：資料轉換、聚合查詢、分析用資料表建立
 
 Power BI：DAX 指標設計、KPI視覺化
 
+## 分析流程（Data Processing Workflow）
+
 
 
