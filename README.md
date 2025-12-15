@@ -1,3 +1,5 @@
 # -Loan-Default-Analysis-
 ## 專案簡介
 本專案使用 Loan Default（貸款違約）資料集，透過 Python、MySQL 與 Power BI 進行完整的數據分析流程，探討影響貸款違約的關鍵因素，並將分析結果轉化為可執行的信用風險與商業決策洞察。此專案旨在展示從資料清理、探索式分析（EDA）、指標設計（KPI）到視覺化報表的端到端數據分析能力，適用於數據分析師／金融風控相關職位。
+
+## 專案目標（Business Objectives）
