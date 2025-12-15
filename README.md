@@ -53,3 +53,13 @@
   
 * **Loan Date (DD/MM/YYYY)** :	The date the loan was issued or originated.
 
+## 工具與技術（Tools & Technologies）
+
+Python：pandas、numpy、matplotlib、seaborn（資料清理與 EDA）
+
+MySQL：資料轉換、聚合查詢、分析用資料表建立
+
+Power BI：DAX 指標設計、KPI視覺化
+
+
+
