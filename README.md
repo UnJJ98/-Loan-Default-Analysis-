@@ -55,7 +55,7 @@
 
 ## 工具與技術（Tools & Technologies）
 
-Python：pandas、numpy、matplotlib、seaborn（資料清理與 EDA）
+Python：pandas、numpy
 
 MySQL：資料轉換、聚合查詢、分析用資料表建立
 
