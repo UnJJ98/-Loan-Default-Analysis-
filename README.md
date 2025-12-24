@@ -62,13 +62,15 @@ MySQL：資料轉換、聚合查詢
 Power BI：DAX 指標設計、KPI視覺化
 
 ## 分析流程（Data Processing Workflow）
-1.資料清理（Data Cleaning）
+#### 1.資料清理（Data Cleaning）
 * 評估數據整齊度(每列一個變量，每行一個觀察值，每個單元格是一個值)
 * 評估數據缺失值(0或Null值)
 * 處理重複數據
 * 處理不一致數據(標準化類別型數據)
 * 處理無效或錯誤數據
-* 整理後匯入MySQL
+* 保存整理後的數據並匯入MySQL
+
+#### 2.資料轉換 (Data Conversion)
 
 
 
