@@ -71,6 +71,10 @@ Power BI：DAX 指標設計、KPI視覺化
 * 保存整理後的數據並匯入MySQL
 
 #### 2.資料轉換 (Data Conversion)
+* 建立分析用彙總資料表（依年度、收入區間、信用評分分組）
+* 撰寫 GROUP BY 與 CASE WHEN 查詢以支援報表分析
+
+#### 3.數據視覺化 (Data Visualization)
 
 
 
