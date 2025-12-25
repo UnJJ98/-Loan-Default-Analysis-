@@ -92,6 +92,7 @@ Power BI：DAX 指標設計、KPI視覺化
     * Default Rate (%) by Employment Type（關鍵風控圖）  
     * Average Loan Amount by Age Group（年齡 vs 單筆貸款）  
     * Default Rate (%) by Year（時間趨勢）  
+![螢幕擷取畫面 2025-12-25 142404](https://github.com/user-attachments/assets/d6bf691a-11c9-4d7b-a62f-190340f176a9)
 
 #### 2.Applicant Demographics & Financial Profile:  
     * Loan (Middle Age Adults) by have Mortgage/Dependents (是否有家屬 / 房貸 vs 貸款總額)  
@@ -99,11 +100,13 @@ Power BI：DAX 指標設計、KPI視覺化
     * Total Loan (Adults) by Credit Score Bins (信用分數區間 vs 貸款總額)  
     * Median Loan Amount by Credit Score Category (信用分數 vs 單筆貸款中位數)  
     * Number of Loans by Education Type (教育程度 vs 貸款件數)  
+![螢幕擷取畫面 2025-12-25 193725](https://github.com/user-attachments/assets/d82a4296-db48-4ac0-9f2e-99de778c2259)
 
 #### 3.Financial Rick Metrics:  
     * YOY Loan Amount Change by Year（放款金額年增率）  
     * YOY Default Loans Change by Year（違約案件年增率）  
     * YTD Loan Amount by Credit Sore Bins/MaritalStatus (信用評分區間/婚姻狀況)  
+![螢幕擷取畫面 2025-12-25 142624](https://github.com/user-attachments/assets/00704d56-31da-4096-b40a-44ed2d7fc600)
 
 ## 專案結構（Project Structure）
 ```text
