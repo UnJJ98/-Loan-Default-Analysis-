@@ -86,21 +86,21 @@ Power BI：DAX 指標設計、KPI視覺化
 * 趨勢分析：透過年度與 YOY 分析觀察風險結構變化
 
 ## Power BI Dashboard重點
-1.Loan Default Overview:  
+#### 1.Loan Default Overview:  
     * Loan Amount by Purpose（依貸款用途）  
     * Average Income by Employment Type（就業型態 vs 收入）  
     * Default Rate (%) by Employment Type（關鍵風控圖）  
     * Average Loan Amount by Age Group（年齡 vs 單筆貸款）  
     * Default Rate (%) by Year（時間趨勢）  
 
-2.Applicant Demographics & Financial Profile:  
+#### 2.Applicant Demographics & Financial Profile:  
     * Loan (Middle Age Adults) by have Mortgage/Dependents (是否有家屬 / 房貸 vs 貸款總額)  
     * Average Loan Amt (High Credit) (年齡 × 婚姻狀態 vs 平均貸款金額)  
     * Total Loan (Adults) by Credit Score Bins (信用分數區間 vs 貸款總額)  
     * Median Loan Amount by Credit Score Category (信用分數 vs 單筆貸款中位數)  
     * Number of Loans by Education Type (教育程度 vs 貸款件數)  
 
-3.Financial Rick Metrics:  
+#### 3.Financial Rick Metrics:  
     * YOY Loan Amount Change by Year（放款金額年增率）  
     * YOY Default Loans Change by Year（違約案件年增率）  
     * YTD Loan Amount by Credit Sore Bins/MaritalStatus (信用評分區間/婚姻狀況)  
