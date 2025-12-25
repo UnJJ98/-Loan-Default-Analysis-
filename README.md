@@ -75,6 +75,34 @@ Power BI：DAX 指標設計、KPI視覺化
 * 撰寫 GROUP BY 與 CASE WHEN 查詢以支援報表分析
 
 #### 3.數據視覺化 (Data Visualization)
+* 撰寫 DAX 指標（Default Rate、YTD、YOY）
+* 建立互動式 Dashboard 進行風險分析與趨勢觀察
 
+## 主要分析重點（Key Analyses & Insights）
+* 整體違約率：掌握整體貸款組合的信用風險水準
+* 信用評分影響：低信用評分族群的違約率顯著偏高
+* 收入與年齡分群：低收入與年輕族群違約風險相對較高
+* 貸款金額分析：高貸款金額搭配低信用評分時，違約風險明顯上升
+* 趨勢分析：透過年度與 YOY 分析觀察風險結構變化
+
+## Power BI Dashboard重點
+1.Loan Default Overview:
+    * Loan Amount by Purpose（依貸款用途）
+    * Average Income by Employment Type（就業型態 vs 收入）
+    * Default Rate (%) by Employment Type（關鍵風控圖）
+    * Average Loan Amount by Age Group（年齡 vs 單筆貸款）
+    * Default Rate (%) by Year（時間趨勢）
+
+2.Applicant Demographics & Financial Profile:
+    * Loan (Middle Age Adults) by have Mortgage/Dependents (是否有家屬 / 房貸 vs 貸款總額)
+    * Average Loan Amt (High Credit) (年齡 × 婚姻狀態 vs 平均貸款金額)
+    * Total Loan (Adults) by Credit Score Bins (信用分數區間 vs 貸款總額)
+    * Median Loan Amount by Credit Score Category (信用分數 vs 單筆貸款中位數)
+    * Number of Loans by Education Type (教育程度 vs 貸款件數)
+
+3.Financial Rick Metrics:
+    * YOY Loan Amount Change by Year（放款金額年增率）
+    * YOY Default Loans Change by Year（違約案件年增率）
+    * YTD Loan Amount by Credit Sore Bins/MaritalStatus (信用評分區間/婚姻狀況)
 
 
