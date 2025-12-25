@@ -105,4 +105,21 @@ Power BI：DAX 指標設計、KPI視覺化
     * YOY Default Loans Change by Year（違約案件年增率）  
     * YTD Loan Amount by Credit Sore Bins/MaritalStatus (信用評分區間/婚姻狀況)  
 
-
+## 專案結構（Project Structure）
+```text
+Loan-Default-Analysis/
+│
+├─ original_data/
+│   └─ Loan_default.csv
+│
+├─ python/
+│   └─ Loan-Default-Analysis.ipynb
+│
+├─ sql/
+│   └─ Loan_Default_Analysis.sql
+│
+├─ powerbi/
+│   └─ Loan_Default_exercise.pbix
+│
+└─ README.md
+```
