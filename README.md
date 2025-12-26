@@ -131,7 +131,7 @@ Loan-Default-Analysis/
 本專案展示如何將原始貸款資料轉換為 可解讀、可決策的信用風險洞察，協助企業在放貸策略、客群篩選與風險控管上做出更佳決策，同時完整呈現數據分析師在實務上的分析能力。
 
 ## 進階分析-邏輯回歸 (Logistic Regression)
-#### 分析目標
+#### 分析目標 (Analysis Objective)
 此分析報告目的是，基於人們的收入、教育程度和年齡等屬性，對於是否違約且風險程度情況進行邏輯回歸分析，從而利用得到的模型，對未來需要借貸的人們，根據屬性預測是否違約和風險程度。
 
 #### 分析流程（Data Processing Workflow）
@@ -139,4 +139,6 @@ Loan-Default-Analysis/
 2.匯入所需的工具集(numpy、pandas、matplotlib.pyplot、seaborn)
 3.數據視覺化
 4.分析數據
+
+## 分析結構 (Analysis Structure)
 
