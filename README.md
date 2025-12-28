@@ -142,4 +142,14 @@ Loan-Default-Analysis/
 5.預測模型
 
 ## 分析結構 (Analysis Structure)
-
+```text
+Logistic Regression Analysis/
+│
+├─ original_data/
+│   └─ Loan_cleaned.csv
+│    
+├─ python/
+│   └─ Loan-Default-Analysis.ipynb
+│
+└─ README.md
+```
