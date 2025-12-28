@@ -135,10 +135,11 @@ Loan-Default-Analysis/
 此分析報告目的是，基於人們的收入、教育程度和年齡等屬性，對於是否違約且風險程度情況進行邏輯回歸分析，從而利用得到的模型，對未來需要借貸的人們，根據屬性預測是否違約和風險程度。
 
 #### 分析流程（Data Processing Workflow）  
-1.匯入所需的工具集(numpy、pandas、matplotlib.pyplot、seaborn)  
+1.匯入所需的工具集(numpy、pandas、matplotlib.pyplot、seaborn、statsmodels.api)  
 2.匯入已整理後的資料集  
 3.數據視覺化  
-4.分析數據  
+4.分析數據
+5.預測模型
 
 ## 分析結構 (Analysis Structure)
 
