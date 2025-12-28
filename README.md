@@ -135,11 +135,30 @@ Loan-Default-Analysis/
 此分析報告目的是，基於人們的收入、教育程度和年齡等屬性，對於是否違約且風險程度情況進行邏輯回歸分析，從而利用得到的模型，對未來需要借貸的人們，根據屬性預測是否違約和風險程度。
 
 #### 分析流程（Data Processing Workflow）  
-1.匯入所需的工具集(numpy、pandas、matplotlib.pyplot、seaborn、statsmodels.api)  
-2.匯入已整理後的資料集  
-3.數據視覺化  
-4.分析數據
-5.預測模型
+**1.匯入所需的工具集**  
+* numpy  
+* pandas  
+* matplotlib.pyplot  
+* seaborn  
+* statsmodels.api  
+**2.匯入已整理後的資料集**  
+* Loan_cleaned.csv
+* Random_Loan.csv
+**3.數據視覺化**
+* 違約比率
+* 年齡與是否違約
+* 就業類型與是否違約    
+**4.分析數據**
+* 移除不會影響是否違約的變量。
+* 把分類變量轉換為category類型。
+* 數據中存在分類變量，我們需要引入虛擬變量，也就是用0和1分別表示是否屬該類別。
+* 把因變量和自變量劃分出來，因變量為Default變量。
+* 對所有自變量查看之間的相關性
+* 給模型線性方程添加截距
+* 用Logit函數來優化得到邏輯回歸模型的參數值。
+* 理解某些自變量系數的實際含義，需要計算自然常數的次方。
+**5.預測模型**
+
 
 ## 分析結構 (Analysis Structure)
 ```text
@@ -147,7 +166,7 @@ Logistic Regression Analysis/
 │
 ├─ original_data/
 │   └─ Loan_cleaned.csv
-│    
+│   └─ Random_Loan.csv
 ├─ python/
 │   └─ Loan-Default-Analysis.ipynb
 │
